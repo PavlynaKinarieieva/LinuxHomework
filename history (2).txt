@@ -1,0 +1,19 @@
+   0 mkdir /home/animals
+   1 ls /home
+   2 cd /
+   3 ls
+   4 cd home/animals/
+   5 mkdir dogs |mkdir cats |mkdir fish
+   6 ls
+   7 touch cats/garfield | >> dogs/pluto | > fish/nemo
+   8 tree
+   9 cd /tmp
+  10 touch adam
+  11 cd /
+  12 mkdir home/humans
+  13 cp tmp/adam home/humans
+  14 touch tmp/evA
+  15 mv tmp/evA opt/eve
+  16 mv opt/eve home/humans
+  17 ls home/humans
+  18 history>history.txt | export_file history.txt
