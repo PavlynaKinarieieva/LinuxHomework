@@ -1,0 +1,17 @@
+   0 mkdir /home/animals
+   1 ls
+   2 ls home
+   3 cd home
+   4 ls /home
+   5 cd /
+   6 ls
+   7 cd home/animals/
+   8 mkdir dogs |mkdir cats |mkdir fish
+   9 ls
+  10 touch /cats/garfield |>> /dogs/pluto |> /fish/nemo
+  11 touch /cats/garfield | >> /dogs/pluto | > /fish/nemo
+  12 touch cats/garfield | >> dogs/pluto | > fish/nemo
+  13 tree
+  14 cd /tmp
+  15 touch /adam
+  16 ls
